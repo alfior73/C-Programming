@@ -14,3 +14,23 @@
 
 */
 
+#include <stdio.h>
+
+int main(void) {
+
+  int n;
+
+  printf("TABLE OF FACTORIAl NUMBERS\n\n");
+  printf(" n!     Factorial \n");
+  printf("----   ---------------\n");
+
+  int factorialNumber = 1; /* current factorial value */
+  
+  for(n = 1; n <= 5; ++n) {
+    factorialNumber *= n;  /* first factorial */
+    printf ("%i! = %i \n", n, factorialNumber);
+  }
+
+    return (0); 
+}
+
