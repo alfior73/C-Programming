@@ -1,3 +1,13 @@
+/* Sample Exercise 1
+
+   Write a program to generate and display a table of
+   n and n squared, for integer values ranging from 1
+   to 10.  Be sure to print appropriate headings
+
+   Hint:  Good use of a loop ... C has no operator for square ... so use num * num in the code
+
+*/
+
 #include <stdio.h>
 
 int main(void) {
