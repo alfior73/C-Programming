@@ -36,7 +36,7 @@ int main ( )
 
     // TODO - Add a loop of your choice here (for, while, or do) to process each employee
 
-    for(int i = 0; i < NUM_EMPLOYEES; i++) {
+    do {
 
       // Prompt for input values from the screen
       printf ("\nEnter clock number for employee: "); 
@@ -72,8 +72,8 @@ int main ( )
       printf ("\t%06i %9.2f %8.1f %7.2f %8.2f\n",clockNumber, wageRate, hours, overtimeHrs, grossPay);
   
       // TODO - end your loop here
-      
-    }
+      ++i;
+    } while (i < NUM_EMPLOYEES);
 
     // Closing message
     printf ("\n Thank you for using UMass Payment System\n\n");
