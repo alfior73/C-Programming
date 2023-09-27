@@ -28,9 +28,6 @@ int main ( )
     float normalPay;     // Standard weekly normal pay without overtime 
     float overtimeHrs;   // Overtime hours worked beyond a normal week (40 hours)
     float overtimePay;   // Any hours worked past the normal scheduled work week
-  
-    // TODO - Add two variables, one for a loop index, another for a loop test
-    int i=0;
 
     printf ("             ***Pay Calculator*** \n\n");
 
